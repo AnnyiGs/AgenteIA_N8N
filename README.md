@@ -214,6 +214,17 @@ Ahora puedes enviar mensajes en Telegram para probar el agente.
 
 ---
 
-## 🎉 ¡Listo!
+## 🤖 PRUEBA
 
-Has configurado un asistente personal automatizado con N8N, Telegram y OpenAI, capaz de **crear, consultar, modificar y eliminar eventos de tu calendario**, enviando notificaciones directamente por Telegram.
+💠 Mensaje en telegram
+
+![telegramMesaje](medios/telegram_pru.png)
+
+💠 Agenda en Google Calendar
+
+![calendar](medios/calendario.png)
+
+
+
+
+
