@@ -54,9 +54,10 @@ Este tutorial te guiará paso a paso para automatizar la gestión de tu calendar
 	![Paso 22](medios/paso22.png)
 
 	Así debe verse:
+
 	![Paso 23](medios/paso23.png)
 
-4. Cierra esta ventana para continuar.
+5. Cierra esta ventana para continuar.
 
 ---
 
@@ -95,6 +96,7 @@ Este tutorial te guiará paso a paso para automatizar la gestión de tu calendar
 	![Paso 30](medios/paso.30.png)
 
 	Así debe verse tu configuración:
+
 	![Paso 31](medios/paso31.png)
 
 ---
@@ -120,6 +122,7 @@ Este tutorial te guiará paso a paso para automatizar la gestión de tu calendar
 	![Paso 34](medios/paso34.png)
 
 2. Selecciónala:
+	
 	![Paso 35](medios/paso35.png)
 
 3. Crea una nueva credencial:
@@ -131,28 +134,36 @@ aqui todo debe salir correctamente si no es asi, revisa que dio error y comprueb
 2. Inicia sesión con tu cuenta de Google.
    
 	![Paso 37](medios/paso37.png)
+
 3. Autoriza a n8n y continúa.
    
 	![Paso 38](medios/paso38.png)
+
 4. Configura los campos:
 	- <b>Credential to connect with</b>: selecciona la credencial creada
 	- <b>Tool Description, Resource, Operation</b>: sin cambios
 	- <b>Calendar</b>: selecciona tu correo
 
 	![Paso 39](medios/paso39.png)
+	
 	- <b>Start</b> y <b>End</b>: haz clic en ✨ (la IA los gestionará)
 	- <b>Use Default Reminders</b>: si está en verde, haz clic; si está en gris, déjalo así
 	- <b>Additional Fields</b>: agrega "SUMMARY" y haz clic en ✨
 
 	![Paso 40](medios/paso40.png)
+
 5. Duplica el nodo de calendario para crear otros flujos:
 	- Haz clic derecho y selecciona <b>Duplicar</b> (hazlo 3 veces para tener 4 nodos en total)
 
 	![Paso 42](medios/paso42.png)
+
 6. Conecta los nodos duplicados:
 	- En el segundo nodo, cambia <b>Operation</b> a <b>Get Many</b>
+	
 	![Paso 43](medios/paso43.png)
+	
 	![Paso 44](medios/paso44.png)
+	
 	- Configura:
 	  - <b>Operation</b>: Get Many
 	  - <b>Limit</b>: 10
@@ -160,15 +171,19 @@ aqui todo debe salir correctamente si no es asi, revisa que dio error y comprueb
 	  - <b>Options</b>: selecciona "Field" y clic en ✨
 
 	- En el tercer nodo, cambia <b>Operation</b> a <b>Get Many</b> y configura <b>Event ID</b> con ✨ (sirve para eliminar eventos)
+	
 	![Paso 45](paso45.png)
 
 	- Así debe verse el flujo:
+	
 	![Paso 46](medios/paso46.png)
 
 7. Ejecuta el flujo con <b>Execute workflow</b> y revisa errores si aparecen.
+	
 	![Paso 46_1](medios/paso46_1.png)
 
 Agrega un nuevo nodo de telegram, busca "telegram text message" y selecciona el primero, conectalo con el flujo del diagrama.
+
 
 ![Paso 46](medios/paso47.png)
 
