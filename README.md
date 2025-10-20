@@ -194,10 +194,10 @@ Aqui tenemos que llenar
 
 ![Paso 48](medios/paso48.png)
 
-
+Solo eso cambiaremos en esta ventana.
 ---
 
-Y solo eso cambiaremos en esta ventana.
+
 
 Para iniciar a hacer pruebas quita el anclaje en el primer nodo de telegram y ahora puedes mandar textos en telegram para poder hacer pruebas. 
 
