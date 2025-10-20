@@ -4,6 +4,18 @@
 
 ---
 
+## 🤖 
+
+💠 Mensaje en telegram
+
+![telegramMesaje](medios/telegram_pru.png)
+
+💠 Agenda en Google Calendar
+
+![calendar](medios/calendario.png)
+
+---
+
 ## ⚠️ NOTA IMPORTANTE
 
 > **Recuerda guardar tu progreso constantemente.**
@@ -212,17 +224,7 @@ Ahora puedes enviar mensajes en Telegram para probar el agente.
 
 > ⚠️ **Nota:** Si la IA arroja errores, verifica que tu cuenta de OpenAI tenga créditos disponibles.
 
----
 
-## 🤖 PRUEBA
-
-💠 Mensaje en telegram
-
-![telegramMesaje](medios/telegram_pru.png)
-
-💠 Agenda en Google Calendar
-
-![calendar](medios/calendario.png)
 
 
 
