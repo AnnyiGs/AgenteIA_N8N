@@ -25,7 +25,7 @@ Este tutorial te guiará paso a paso para automatizar la gestión de tu calendar
 
 1. Inserta la imagen de referencia:
    
-	![Paso 21](paso21.png)
+	![Paso 21](medios/paso21.png)
 
 2. Pega el siguiente texto en el apartado de instrucciones del agente:
 
