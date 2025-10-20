@@ -124,11 +124,10 @@ Este tutorial te guiará paso a paso para automatizar la gestión de tu calendar
 
 3. Crea una nueva credencial:
 
-imagen paso36.png
+![Paso 36](medios/paso36.png)
 
 aqui todo debe salir correctamente si no es asi, revisa que dio error y comprueba la informacion. 
 
-	![Paso 36](paso36.png)
 2. Inicia sesión con tu cuenta de Google.
    
 	![Paso 37](medios/paso37.png)
