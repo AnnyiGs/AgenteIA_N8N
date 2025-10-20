@@ -194,18 +194,15 @@ Aqui tenemos que llenar
 
 ![Paso 48](medios/paso48.png)
 
+
+---
+
 Y solo eso cambiaremos en esta ventana.
 
 Para iniciar a hacer pruebas quita el anclaje en el primer nodo de telegram y ahora puedes mandar textos en telegram para poder hacer pruebas. 
 
 Nota los errores en la IA son comunes si no cuentas con creditos disponibles para usarla,prueba con otra cuenta o tambien puedes conseguir creditos. 
 
-
-
-
-
-
-#esta nota debe de ir directamente en el inicio del todo NOTA: RECURDA GUARDAR CADA PASO Y CAMBIO QUE HAGAMSO PARA QUE NO PERDAMOS PROGRASO PUEDES CUARDAR CON CTRL + S o DIRECTAMENTE DANDO CLICK EN SAVE 
-
+---
 
 
