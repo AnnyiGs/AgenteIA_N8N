@@ -51,10 +51,10 @@ Este tutorial te guiará paso a paso para automatizar la gestión de tu calendar
 
 3. Busca en el panel izquierdo la opción <b>text /start</b> y arrástrala debajo de <b>### User Input</b>.
 
-	![Paso 22](paso22.png)
+	![Paso 22](medios/paso22.png)
 
 	Así debe verse:
-	![Paso 23](paso23.png)
+	![Paso 23](medios/paso23.png)
 
 4. Cierra esta ventana para continuar.
 
@@ -64,7 +64,7 @@ Este tutorial te guiará paso a paso para automatizar la gestión de tu calendar
 
 1. Haz clic en <b>Chat model*</b> en la parte inferior.
    
-	![Paso 24](paso24.png)
+	![Paso 24](medios/paso24.png)
 
 2. Busca <b>OpenAI</b> en el panel derecho y selecciónalo.
 
@@ -72,30 +72,30 @@ Este tutorial te guiará paso a paso para automatizar la gestión de tu calendar
 <b>Nota:</b> Puedes usar otro modelo de IA si lo prefieres, pero recomiendo OpenAI.
 </div>
 
-	![Paso 25](paso25.png)
+![Paso 25](medios/paso25.png)
 
 3. Consigue tu API key de OpenAI en [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys). Inicia sesión o crea una cuenta si no tienes una.
 
-	![Paso 26](paso26.png)
+	![Paso 26](medios/paso26.png)
 
 4. Haz clic en <b>CREATE NEW SECRET KEY</b>.
    
-	![Paso 27](paso27.png)
+	![Paso 27](medios/paso27.png)
 
 5. Ponle un nombre, haz clic en <b>Create</b> y copia tu clave.
    
-	![Paso 28](paso28.png)
+	![Paso 28](medios/paso28.png)
 
 6. Pega la clave en el campo <b>api key</b> y guarda.
    
-	![Paso 29](paso29.png)
+	![Paso 29](medios/paso29.png)
 
 7. Selecciona el modelo que deseas usar (ejemplo: GPT-4o).
    
-	![Paso 30](paso.30.png)
+	![Paso 30](medios/paso.30.png)
 
 	Así debe verse tu configuración:
-	![Paso 31](paso31.png)
+	![Paso 31](medios/paso31.png)
 
 ---
 
@@ -103,13 +103,13 @@ Este tutorial te guiará paso a paso para automatizar la gestión de tu calendar
 
 1. Haz clic en <b>memoria</b> y selecciona <b>Simple memoria</b>.
    
-	![Paso 32](paso32.png)
+	![Paso 32](medios/paso32.png)
 
 2. En <b>Sesion ID</b> selecciona <b>Define below</b>.
 3. Para <b>Key</b>, busca en el panel izquierdo la opción 🎲chat y copia el número junto a <b>#id</b>.
 4. En <b>Context Window Length</b> pon 10.
 
-	![Paso 33](paso33.png)
+	![Paso 33](medios/paso33.png)
 
 ---
 
@@ -117,10 +117,10 @@ Este tutorial te guiará paso a paso para automatizar la gestión de tu calendar
 
 1. Agrega la herramienta <b>calendar</b> o <b>google calendar</b>.
    
-	![Paso 34](paso34.png)
+	![Paso 34](medios/paso34.png)
 
 2. Selecciónala:
-	![Paso 35](paso35.png)
+	![Paso 35](medios/paso35.png)
 
 3. Crea una nueva credencial:
 
@@ -131,29 +131,29 @@ aqui todo debe salir correctamente si no es asi, revisa que dio error y comprueb
 	![Paso 36](paso36.png)
 2. Inicia sesión con tu cuenta de Google.
    
-	![Paso 37](paso37.png)
+	![Paso 37](medios/paso37.png)
 3. Autoriza a n8n y continúa.
    
-	![Paso 38](paso38.png)
+	![Paso 38](medios/paso38.png)
 4. Configura los campos:
 	- <b>Credential to connect with</b>: selecciona la credencial creada
 	- <b>Tool Description, Resource, Operation</b>: sin cambios
 	- <b>Calendar</b>: selecciona tu correo
 
-	![Paso 39](paso39.png)
+	![Paso 39](medios/paso39.png)
 	- <b>Start</b> y <b>End</b>: haz clic en ✨ (la IA los gestionará)
 	- <b>Use Default Reminders</b>: si está en verde, haz clic; si está en gris, déjalo así
 	- <b>Additional Fields</b>: agrega "SUMMARY" y haz clic en ✨
 
-	![Paso 40](paso40.png)
+	![Paso 40](medios/paso40.png)
 5. Duplica el nodo de calendario para crear otros flujos:
 	- Haz clic derecho y selecciona <b>Duplicar</b> (hazlo 3 veces para tener 4 nodos en total)
 
-	![Paso 42](paso42.png)
+	![Paso 42](medios/paso42.png)
 6. Conecta los nodos duplicados:
 	- En el segundo nodo, cambia <b>Operation</b> a <b>Get Many</b>
-	![Paso 43](paso43.png)
-	![Paso 44](paso44.png)
+	![Paso 43](medios/paso43.png)
+	![Paso 44](medios/paso44.png)
 	- Configura:
 	  - <b>Operation</b>: Get Many
 	  - <b>Limit</b>: 10
@@ -164,21 +164,21 @@ aqui todo debe salir correctamente si no es asi, revisa que dio error y comprueb
 	![Paso 45](paso45.png)
 
 	- Así debe verse el flujo:
-	![Paso 46](paso46.png)
+	![Paso 46](medios/paso46.png)
 
 7. Ejecuta el flujo con <b>Execute workflow</b> y revisa errores si aparecen.
-	![Paso 46_1](paso46_1.png)
+	![Paso 46_1](medios/paso46_1.png)
 
 Agrega un nuevo nodo de telegram, busca "telegram text message" y selecciona el primero, conectalo con el flujo del diagrama.
 
-imagen paso47.png
+![Paso 46](medios/paso47.png)
 
 Aqui tenemos que llenar 
 
 💠Chat ID - como ya lo habiamos hecho anteriormente arrastrando del apartado de telegram, 🎲CHAT, #id ahora solo arrastra el icono de #id a la casilla de Chat ID.
 💠 Text - arrastraremos de 🤖 AI AGENTE, el icono de T ouput a nuestra casilla de text.
 
-imagen paso48.png
+![Paso 48](medios/paso48.png)
 
 Y solo eso cambiaremos en esta ventana.
 
